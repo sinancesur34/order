@@ -1,0 +1,56 @@
+﻿@using EntityLayer.Concrete
+@model List<Kategori>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<br /><center><h2> Kategori Listesi</h2></center>
+<div><br />
+    <form method="post" action="/AdminKategori/index">
+        <table class="table table-hover">
+            <tr>
+              
+                <th>KategoriID</th>
+                <th>Kategori Adı</th>
+                <th></th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    
+                    <td>@item.KategoriID</td>
+                    <td>@item.KategoriAd</td>
+
+                    <td><a href="/AdminKategori/DeleteKategori/@item.KategoriID" class="btn btn-danger">Kategori sil</a></td>
+                    <td><a href="/AdminKategori/EditKategori/@item.KategoriID" class="btn btn-success">Kategori güncelle</a></td>
+
+                </tr>
+            }
+        </table>
+
+    </form>
+</div>
+<a href="#Model1"@*/@item.KategoriID"*@ style="margin-left:20px;" class="btn btn-info" data-toggle="modal" data-target="#Model1">Yeni Kategori</a>
+
+<div class="modal" id="Modal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <h2 class="modal-title">satış</h2>
+
+            </div>
+            <form>
+
+                <div class="modal-body"></div>.
+            </form>
+        </div>
+    </div>
+</div>
+
+<br /><br /><br /><br /><br /><br /><br />
