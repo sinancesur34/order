@@ -10,11 +10,12 @@ namespace EntityLayer.Concrete
         public int SatisID { get; set; }
 
         // Satış ile Müşteri arasında bir ilişki
+        public string MusteriAdi { get; set; }
+
+        public string MusteriSoyadi { get; set; }
 
         public DateTime Tarih { get; set; }
 
-        public int MusteriID { get; set; }
-        public virtual Musteri Musteri { get; set; }
 
         //    // Satış ile Ür arasında bir ilişki
 

@@ -60,17 +60,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\IKategoriService.cs" />
-    <Compile Include="Abstract\IMusteriService.cs" />
     <Compile Include="Abstract\ISatisService.cs" />
     <Compile Include="Abstract\IUrunService.cs" />
-    <Compile Include="Concrete\KategoriManager.cs" />
-    <Compile Include="Concrete\MusteriManager.cs" />
     <Compile Include="Concrete\SatisManager.cs" />
     <Compile Include="Concrete\UrunManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ValidationRulers_fluentValidation\KategoriValidator.cs" />
-    <Compile Include="ValidationRulers_fluentValidation\MusteriValidator.cs" />
     <Compile Include="ValidationRulers_fluentValidation\SatisValidator.cs" />
     <Compile Include="ValidationRulers_fluentValidation\UrunValidator.cs" />
   </ItemGroup>

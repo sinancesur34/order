@@ -14,9 +14,7 @@ namespace BusinessLayer.ValidationRulers_fluentValidation
         {
             RuleFor(x => x.UrunAd).NotEmpty().WithMessage("Ürün Adı Boş Olamaz");
             RuleFor(x => x.Fiyat).NotEmpty().WithMessage("Fiyat Boş Olamaz");
-            RuleFor(x => x.Stok).NotEmpty().WithMessage("Stok Boş Olamaz");
-            RuleFor(x => x.KategoriID).NotEmpty().WithMessage("Kategori Boş Olamaz");
-            RuleFor(x => x.Marka).NotEmpty().WithMessage("Marka Boş Olamaz");
+           
 
 
 

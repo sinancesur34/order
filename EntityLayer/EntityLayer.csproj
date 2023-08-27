@@ -51,8 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Concrete\Kategori.cs" />
-    <Compile Include="Concrete\Musteri.cs" />
     <Compile Include="Concrete\Satis.cs" />
     <Compile Include="Concrete\Urun.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

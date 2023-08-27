@@ -130,10 +130,6 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\AdminKategoriController.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\KategoriController.cs" />
-    <Compile Include="Controllers\MusteriController.cs" />
     <Compile Include="Controllers\SatisController.cs" />
     <Compile Include="Controllers\UrunController.cs" />
     <Compile Include="Global.asax.cs">
@@ -2281,19 +2277,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Category\GetCategoryList.cshtml" />
-    <Content Include="Views\Category\AddCategory.cshtml" />
     <Content Include="Views\Urun\index.cshtml" />
     <Content Include="Views\Urun\AddUrun.cshtml" />
     <Content Include="Views\Satis\index.cshtml" />
     <Content Include="Views\Satis\AddSatis.cshtml" />
-    <Content Include="Views\Musteri\AddMusteri.cshtml" />
-    <Content Include="Views\Musteri\Index.cshtml" />
     <Content Include="Views\Shared\_AdminLayout.cshtml" />
-    <Content Include="Views\AdminKategori\Index.cshtml" />
-    <Content Include="Views\AdminKategori\AddCategory.cshtml" />
-    <Content Include="Views\AdminKategori\EditKategori.cshtml" />
-    <Content Include="Views\Musteri\EditMusteri.cshtml" />
     <Content Include="Views\Satis\EditSatis.cshtml" />
     <Content Include="Views\Urun\EditUrun.cshtml" />
   </ItemGroup>

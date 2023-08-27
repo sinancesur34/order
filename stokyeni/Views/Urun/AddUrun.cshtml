@@ -19,19 +19,19 @@
         <label>Fiyat</label>
         @Html.TextBoxFor(x => x.Fiyat, new { @class = "form-control" })
         @Html.ValidationMessageFor(x => x.Fiyat)
-        <br /><br />
+        @*<br /><br />*@
 
-        <label>Kategori</label>
+        @*<label>Kategori</label>
         @Html.DropDownListFor(x => x.KategoriID, (List<SelectListItem>)ViewBag.vlk, new
-        { @class = "form-control" })
+        { @class = "form-control" })*@
 
        
 
         @*@Html.TextBoxFor(x => x.KategoriID, new { @class = "form-control" })
         @Html.ValidationMessageFor(x => x.KategoriID)*@   @*dışarıdan ad kısmını aldıgım için bunu kullanmıyorum*@
-        <br /><br />
+        @*<br /><br />*@
 
-        <label>Marka</label>
+        @*<label>Marka</label>
         <select id="Marka" name="Marka">
             <option value="">Seçiniz</option>
             <option value="Vestel">Vestel</option>
@@ -46,15 +46,15 @@
             <option value="Samsung">Samsung</option>
             <option value="Siemens">Siemens</option>
             <option value="Profilo">Profilo</option>
-            <option value="Xiaomi">Xiaomi</option>
+            <option value="Xiaomi">Xiaomi</option>*@
 
-        </select>
-        @Html.ValidationMessageFor(x => x.Marka)
+        @*</select>*@
+        @*@Html.ValidationMessageFor(x => x.Marka)*@
         <br /><br />
 
-        <label>Stok</label>
+        @*<label>Stok</label>
         @Html.TextBoxFor(x => x.Stok, new { @class = "form-control" })
-        @Html.ValidationMessageFor(x => x.Stok)
+        @Html.ValidationMessageFor(x => x.Stok)*@
 
         <br /><br />
         <button id="kaydetButton">Kaydet</button>
@@ -69,7 +69,7 @@
         </script>
     </div>
 }
-<h4>Don't tell people your plans, show them your results</h4>
+
 @*<h6>What matters is not how much you can memorize, but how much you understand.</h6>*@
 
 <!--<link href="~/Content/bootstrap.min.css" rel="stylesheet" />

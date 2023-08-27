@@ -11,6 +11,10 @@ namespace BusinessLayer.Abstract
     public interface IUrunService
     {
         List<Urun> GetList();
-        void UrunAdd(Urun Urun);
+        void SatisAdd(Urun urun);
+        void SatisDelete(Urun urun);
+        void SatisUpdate(Urun urun);
+        Urun GetByID(int id);
     }
 }
+
