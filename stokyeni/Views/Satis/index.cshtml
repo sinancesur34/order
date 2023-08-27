@@ -12,14 +12,10 @@
     <table class="table table-hover">
         <tr>
             <th>Satış ID</th>
-            <th>MüşteriID</th>
             <th>MÜşteri Ad</th>
             <th>MÜşteri Soyad</th>
-            <th>Müşteri TCKN</th>
             <th>Ürün ID</th>
-            <th>Ürün Ad</th>
-            <th>Marka</th>
-            <th>Fiyat</th>
+            <th>Ürün Ad</th> 
             <th>Tarih</th>
             <th></th>
             <th></th>
@@ -31,13 +27,10 @@
 
             <tr>
                 <td>@item.SatisID</td>
-                <td>@item.MusteriID</td>
-                <td>@item.Musteri.MusteriAd</td>
-                <td>@item.Musteri.MusteriSoyad</td>
-                <td>@item.Musteri.MusteriTCKN</td>
+                @*<td>@item.MusteriAd</td>
+                <td>@item.MusteriSoyad</td>*@
                 <td>@item.UrunID</td>
                 <td>@item.Urun.UrunAd</td>
-                <td>@item.Urun.Marka</td>
                 <td>@item.Urun.Fiyat</td>
                 <td>@item.Tarih</td>
               

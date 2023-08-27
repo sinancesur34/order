@@ -17,14 +17,7 @@ namespace EntityLayer.Concrete
 
         public decimal Fiyat { get; set; }
 
-        public string Marka { get; set; }
-        public int Stok { get; set; }
-
-        //// Ürün ile Kategori arasında bir ilişki
-        [ForeignKey("Kategori")]
-        public int KategoriID { get; set; }
-        public virtual Kategori Kategori { get; set; }
-
+       
         //// Ürün ile Satış arasında bir ilişki
         public virtual ICollection<Satis> Satislar { get; set; }
     }
